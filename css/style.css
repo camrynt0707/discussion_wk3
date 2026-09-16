@@ -1,0 +1,45 @@
+body {
+    background-color: #F7F2EB;
+    font-family: Times New Roman, Times, serif;
+    color: #566044;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    color: #566044;
+}
+
+img {
+    height: 367px;
+    width: 367px;
+    border: 2px dotted #566044;
+}
+
+#nav-items {
+    display: flex;
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+    gap: 20px; 
+    overflow: hidden;
+    background-color: #EAE2D6;
+    border: 2px solid #566044;
+    width: max-content;
+}
+
+a {
+    color: #25330b;
+    text-decoration: none;
+}
+
+#selected {
+    color: #566044;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#cover-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
